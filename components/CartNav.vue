@@ -1,9 +1,11 @@
 <template>
   <div class="header-cart">
       <p class="header-product-in-cart">
-        <span v-if="totalCount === null">0</span>
-        <span v-else>
+        <span v-if="totalCount > 0 && totalProduct > 0">
           {{ totalCount }}&nbsp;items ${{ totalProduct | numberFormat }}
+        </span>
+        <span v-else>
+          0
         </span>
       </p>
       <p class="header-text-cart">{{ msg }}</p>

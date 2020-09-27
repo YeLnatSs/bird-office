@@ -35,19 +35,23 @@ export default {
   align-items: center;
   margin-bottom: 80px;
 
+  @media screen and (min-width: 1200px) {
+      padding: 0 4.5rem;
+    }
+
   &-logo {
     height: 3.8rem;
     padding-left: 1em;
   }
 
   &-product-in-cart {
-    padding: 1.5px 7.5px;
+    padding: 2px 6px;
     border: 1px solid $yellow;
     background: $yellow;
     font-size: 1.4rem;
     border-radius: 30px;
     color: $white;
-    line-height: normal;
+    line-height: 1.2;
     margin-bottom: 0;
   }
 
