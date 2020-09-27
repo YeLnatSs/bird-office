@@ -1,4 +1,6 @@
 # bird-office
+Test Bird Office made with Nuxt.js and Bootstrap-vue.
+
 
 ## Build Setup
 
